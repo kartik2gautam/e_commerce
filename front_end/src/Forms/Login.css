@@ -1,0 +1,43 @@
+.container-login {
+  width: 30%;
+  min-width: 300px;
+}
+.labels {
+  color: rgb(252, 252, 255);
+  font-style: normal;
+}
+.input {
+  text-align: left;
+  background-color: hsl(0, 0, 50);
+  width: 80%;
+}
+.header {
+  color: white;
+  margin-top: 5%;
+}
+
+.background-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42rem;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.mid {
+  display: flex;
+  justify-content: center;
+}
+.color-signup {
+  color: rgb(0, 47, 255);
+}
+.color-links{
+ color: rgb(14, 30, 255);
+}

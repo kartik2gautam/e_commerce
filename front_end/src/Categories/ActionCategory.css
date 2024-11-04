@@ -1,0 +1,99 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.action-content {
+  background-color: rgb(10, 10, 10);
+  display: flex;
+
+  justify-content: center;
+}
+.action-content-main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.action-filters {
+  width: 100%;
+
+  background-color: rgb(10, 10, 10);
+  margin-right: 20px;
+}
+.filter-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-control-action {
+  color: white;
+  width: 80%;
+  background-color: transparent;
+}
+.form-control-action-search{
+  color: white;
+  width: 20%;
+  background-color: transparent;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-div {
+  height: 60%;
+}
+.black-option-action{
+  background-color: black;
+}
+.search-bar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+}
+.searching-logo{
+  margin-right: 1%;
+}
+
+@media (min-width: 1801px) {
+  .product-grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+@media (max-width: 1800px) {
+  .product-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+@media (max-width: 1600px) {
+  .product-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+@media (max-width: 1400px) {
+  .product-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (max-width: 960px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 380px) {
+  .product-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

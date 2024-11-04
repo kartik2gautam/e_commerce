@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.h2 {
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+}
+.input {
+  color: white;
+}
+
+.add-product-form {
+  width: 50%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group {
+  width: 80%;
+}
+
+.add-product-label {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-preview {
+  width: 50%;
+  margin-left: 20px;
+  height: 100%;
+}
+.h2 {
+  text-align: center;
+}
+
+.form-control {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  outline: none;
+}

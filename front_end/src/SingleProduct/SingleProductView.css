@@ -1,0 +1,163 @@
+.single-product-body {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  width: 20%;
+}
+.blur-container {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+
+  filter: blur(20px);
+  border-width: 5px;
+  border-color: antiquewhite;
+}
+.no-blur-container {
+  position: absolute;
+  z-index: 5;
+  height: 20vh;
+  transform: translate(-50%, -50%);
+}
+.product-image {
+  width: 25%;
+  height: 70%;
+  min-width: 200px;
+
+  filter: blur(0px);
+  position: absolute;
+
+  margin-top: 20vh;
+  margin-left: 6%;
+}
+.no-blur-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 20;
+}
+.publisher {
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+}
+.product-name {
+  margin-top: 10vh;
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+}
+.product-description {
+  display: flex;
+  flex-direction: row;
+
+  background-color: black;
+}
+.green-button-div {
+  margin-left: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.green-button {
+  height: 8vh;
+  width: 5%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+
+  border-radius: 5px;
+}
+.cart-icon {
+  width: 45%;
+  vertical-align: middle;
+}
+.grey-button-div {
+  margin-left: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.grey-button {
+  min-width: 60px;
+  height: 8vh;
+  width: 5%;
+  border: none;
+  background-color: rgb(68, 68, 68);
+}
+.butttons-div {
+  display: flex;
+  flex-direction: row;
+}
+.age-restriction-div {
+  margin-top: 5vh;
+  margin-left: 5%;
+  width: 50%;
+  border: white;
+}
+.product-description-div {
+  width: 50%;
+}
+.age-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.age-logo {
+  margin-top: 5vh;
+  margin-left: 7%;
+  width: 10%;
+  height: 10vh;
+}
+.seventeenplus-button {
+  min-width: 110px;
+  width: 40%;
+  height: 5vh;
+  background-color: rgb(61, 61, 61);
+  color: blueviolet;
+  border: none;
+}
+.age-text {
+  width: 100%;
+}
+.quantity-div {
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+}
+.input-number {
+  border: none;
+}
+.quantity-button {
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.decrement-button,
+.increment-button {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.quantity-text {
+  padding: 8px;
+  font-size: 18px;
+}

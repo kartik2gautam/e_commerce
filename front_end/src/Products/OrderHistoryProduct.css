@@ -1,0 +1,8 @@
+.order-product {
+  width: 40%;
+  min-width: 80px;
+  border: black;
+}
+.order-rounded {
+  max-width: 100%;
+}

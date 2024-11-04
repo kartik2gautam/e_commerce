@@ -1,0 +1,52 @@
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-toggler-icon,
+.navbar .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
+.navbar {
+  background-color: black;
+}
+
+.container-navbar {
+  z-index: 25;
+  width: 100%;
+}
+.cart-image {
+  max-width: 100%;
+  max-height: 5vh;
+}
+.badge-size {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  top: -5px;
+  right: -5px;
+
+  z-index: 1;
+}
+.main-div {
+  position: relative;
+}
+.total-items-number {
+  margin: 0%;
+
+  display: flex;
+  justify-content: center;
+}
+.profile-image {
+  max-width: 100%;
+  max-height: 5vh;
+}
+.welcome-div {
+  margin-right: 1%;
+}
+.white-color {
+  color: white;
+}
+.navbar-margin-left {
+  margin-left: 2%;
+}
+.margin-div {
+  margin-left: 30%;
+}

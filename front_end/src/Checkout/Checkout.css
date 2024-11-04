@@ -1,0 +1,15 @@
+.checkout-heading {
+  display: flex;
+  justify-content: center;
+}
+.checkout-form {
+  margin-left: 10%;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.checkout-button {
+  max-width: 20%;
+  margin-left: 40%;
+}

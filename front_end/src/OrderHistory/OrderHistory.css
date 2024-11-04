@@ -1,0 +1,39 @@
+.order-product {
+  width: 20%;
+}
+.order-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order-div {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.order-individual-product {
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.order-height {
+  height: 100%;
+}
+.li-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.div-text {
+  width: 100%;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+.horz-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
